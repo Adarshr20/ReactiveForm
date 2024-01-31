@@ -1,0 +1,33 @@
+form {
+    width: 400px;
+    margin: auto;
+    border:2px solid;
+    border-radius: 8px;
+    padding: 15px;
+  }
+
+  label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+  }
+  .gender input {
+    margin-right: 10px;
+  }
+
+  .buttonDiv button {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttonDiv button:hover {
+    background-color: #45a049;
+  }
+
+  .name, .gender, div[formGroupName="address"], div[formArrayName="hobbies"] {
+    margin-bottom: 15px;
+  }
